@@ -18,8 +18,13 @@ public class Car {
         return engineType;
     }
 
-    void drive() {
+    /* void drive() {
         System.out.println("DRIVING..");
+    } */
+
+    String drive() {
+        System.out.println("DRIVING AS A CAR");
+        return "DRIVING AS A CAR";
     }
 
     void turnLeft() {
